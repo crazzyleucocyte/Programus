@@ -12,8 +12,8 @@ class Solution {
                 j++;
             }
         }
+        
         temp=Arrays.copyOf(temp,j);
-     
         return temp;
     }
 }
