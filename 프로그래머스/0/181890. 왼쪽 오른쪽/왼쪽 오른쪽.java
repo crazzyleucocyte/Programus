@@ -2,9 +2,7 @@ import java.util.*;
 class Solution {
     public String[] solution(String[] str_list) {
         String[] answer = {};
-        if(str_list.length == 1 && ( str_list [0].equals( "l" ) || str_list [0].equals( "r" ))){
-            return new String [] {};
-        }else if(str_list.length == 1){
+        if(str_list.length == 1){
             return new String [] {};
         }
         for( int i = 0; i< str_list.length; i++ ){
