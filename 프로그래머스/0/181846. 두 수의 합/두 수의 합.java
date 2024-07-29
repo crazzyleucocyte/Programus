@@ -13,6 +13,7 @@ class Solution {
         int temp2=0;
         int i=stra.length-1;
         int j=strb.length-1;
+        
         for(int idx =length-1;idx>=0;idx--,i--,j--){
             cha=(i<0)?0:Integer.parseInt(stra[i]);
             chb=(j<0)?0:Integer.parseInt(strb[j]);
